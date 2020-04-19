@@ -22,7 +22,7 @@ class MainActivity : FragmentActivity(), TemperatureFragment.TemperatureListener
 
         //find the temperature display fragment
         val temperatureDisplayFragment: TemperatureDisplayFragment? =
-            supportFragmentManager.findFragmentById(R.id.fragment_temperature_display)
+            supportFragmentManager.findFragmentById(R.id.temperature_display_fragment)
             as? TemperatureDisplayFragment
         Log.i("DUDE", "I'm in Activity Main onChipClick")
         if(temperatureDisplayFragment == null){

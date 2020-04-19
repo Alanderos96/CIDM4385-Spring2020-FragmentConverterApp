@@ -10,4 +10,9 @@
     <string name="celsius">To Celsius</string>
 <!--    <string name="celcius">Celcius</string>-->
     <string name="fahrenheit">To Fahrenheit</string>
+    <string name="weatherappMainText">WeatherApp</string>
+    <string name="enter_conversion">Enter Conversion</string>
+    <string name="show_converstions_list">Show Conversions</string>
+    <string name="get_weather">Get Weather</string>
+    <string name="weather_app_icon">Weather App Icon</string>
 </resources>

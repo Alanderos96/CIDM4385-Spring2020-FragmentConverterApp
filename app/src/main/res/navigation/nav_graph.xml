@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="edu.wtamu.cis.cidm4385.fragmentconverterapp.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_temperatureFragment2"
+            app:destination="@id/temperatureFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_temperatureListFragment"
+            app:destination="@id/temperatureListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/temperatureFragment"
+        android:name="edu.wtamu.cis.cidm4385.fragmentconverterapp.TemperatureFragment"
+        android:label="TemperatureFragment" >
+        <action
+            android:id="@+id/action_temperatureFragment_to_temperatureDisplayFragment"
+            app:destination="@id/temperatureDisplayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/temperatureDisplayFragment"
+        android:name="edu.wtamu.cis.cidm4385.fragmentconverterapp.TemperatureDisplayFragment"
+        android:label="TemperatureDisplayFragment" >
+        <action
+            android:id="@+id/action_temperatureDisplayFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/temperatureListFragment"
+        android:name="edu.wtamu.cis.cidm4385.fragmentconverterapp.TemperatureListFragment"
+        android:label="TemperatureListFragment" >
+        <action
+            android:id="@+id/action_temperatureListFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>
