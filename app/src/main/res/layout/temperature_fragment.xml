@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextTemperature"
+        android:layout_width="185dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/temperature"
+        android:inputType="textPersonName" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipToggle"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleButtonCF"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="25dp"
+        android:layout_toEndOf="@+id/editTextTemperature"
+        android:text="@string/toggle"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:chipIcon="@android:drawable/ic_menu_compass"
+        tools:text="@string/toggle" />
+
+    <ToggleButton
+        android:id="@+id/toggleButtonCF"
+        android:layout_width="174dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="24dp"
+        android:layout_toEndOf="@+id/editTextTemperature"
+        android:text="@string/celsius"
+        android:textOff="@string/fahrenheit"
+        android:textOn="@string/celsius" />
+
+</RelativeLayout>

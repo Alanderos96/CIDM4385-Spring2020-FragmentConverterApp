@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1018987131723",
+    "firebase_url": "https://cidm4385-spring2020.firebaseio.com",
+    "project_id": "cidm4385-spring2020",
+    "storage_bucket": "cidm4385-spring2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018987131723:android:1d5160e4f8945bdc6f2ece",
+        "android_client_info": {
+          "package_name": "edu.wtamu.cis.cidm4385.fragmentconverterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018987131723-ii2tcrqe8u7ol74njjdnfvgob12gt6pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbZHyiIwQZ2xeKw_6Qtl8QXzHX9ro-NXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018987131723-ii2tcrqe8u7ol74njjdnfvgob12gt6pg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FragmentConverterApp</string>
+    <string name="temp">0</string>
+    <string name="temperature">Temperature</string>
+    <string name="c_f">C/F</string>
+    <string name="textViewValue">0</string>
+    <string name="toggle">Convert</string>
+    <string name="tempToggle">Celsius</string>
+    <string name="_0_c">0 C</string>
+    <string name="celsius">To Celsius</string>
+<!--    <string name="celcius">Celcius</string>-->
+    <string name="fahrenheit">To Fahrenheit</string>
+</resources>
